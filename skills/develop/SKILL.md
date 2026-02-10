@@ -210,3 +210,28 @@ AskUserQuestion으로 개발 방식 선택:
 | Phase 2-B: 코드 기반 구현 | `/oh-my-claudecode:ralph` | 완료 보장 실행 워크플로우 |
 | Phase 3: 빌드 오류 수정 | `/oh-my-claudecode:build-fix` | 최소 수정 원칙 |
 | Phase 4: QA/검증 | `/oh-my-claudecode:ultraqa` | QA 순환 워크플로우 |
+
+## MUST 규칙
+
+| # | 규칙 |
+|---|------|
+| 1 | 개발계획서의 기술스택 및 아키텍처를 준수한다 |
+| 2 | 빌드 성공 및 테스트 통과를 확인한다 |
+| 3 | README.md를 작성한다 (아키텍처, 디렉토리 구조, 실행 방법 포함) |
+| 4 | Option B 선택 시 references/develop.md 프롬프트 템플릿을 활용한다 |
+
+## MUST NOT 규칙
+
+| # | 금지 사항 |
+|---|----------|
+| 1 | 개발계획서 범위 외 기능을 구현하지 않는다 |
+| 2 | DSL 원본 파일을 수정하지 않는다 (읽기 전용) |
+| 3 | src 디렉토리 하위에 결과파일을 생성하지 않는다 (Base 디렉토리 직접 사용) |
+
+## 검증 체크리스트
+
+- [ ] 코드 빌드가 성공했는가 (Option B) 또는 Dify publish가 성공했는가 (Option A)
+- [ ] 테스트가 통과했는가 (Option B) 또는 API 호출 테스트가 통과했는가 (Option A)
+- [ ] README.md가 작성되었는가
+- [ ] 개발계획서의 기술스택/아키텍처와 구현이 일치하는가
+- [ ] 산출물 목록이 보고되었는가
