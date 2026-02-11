@@ -576,3 +576,4 @@ Abra 플러그인은 다음 오픈소스 소프트웨어를 사용함:
 버그 리포트, 기능 요청, 기여는 다음 경로로:
 - GitHub Issues: https://github.com/cna-bootcamp/abra/issues
 - GitHub Discussions: https://github.com/cna-bootcamp/abra/discussions
+
