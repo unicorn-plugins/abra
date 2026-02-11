@@ -343,8 +343,8 @@ abra/
   "author": {
     "name": "Unicorn Inc."
   },
-  "repository": "https://github.com/cna-bootcamp/abra",
-  "homepage": "https://github.com/cna-bootcamp/abra",
+  "repository": "https://github.com/unicorn-plugins/abra",
+  "homepage": "https://github.com/unicorn-plugins/abra",
   "license": "MIT",
   "keywords": ["abra", "dmap", "plugin", "multi-agent", "dify", "ai-agent", "automation"]
 }

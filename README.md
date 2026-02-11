@@ -61,7 +61,7 @@ Abra 플러그인을 사용하기 위해 다음 환경이 필요합니다:
 **1단계: GitHub 마켓플레이스 등록**
 
 ```bash
-claude plugin marketplace add cna-bootcamp/abra
+claude plugin marketplace add unicorn-plugins/abra
 ```
 
 **2단계: 플러그인 설치**
@@ -118,7 +118,7 @@ curl http://localhost/console/api/health
 **1단계: 저장소 클론**
 
 ```bash
-git clone https://github.com/cna-bootcamp/abra.git
+git clone https://github.com/unicorn-plugins/abra.git
 cd abra
 ```
 
@@ -145,7 +145,7 @@ claude plugin install abra@abra
 
 ### 처음 GitHub을 사용하시나요?
 
-GitHub 마켓플레이스 사용이 처음이라면 [GitHub 플러그인 설치 가이드](https://github.com/cna-bootcamp/gen-ma-plugin/blob/main/docs/how-to-install-github-plugin.md)를 참조하세요.
+GitHub 마켓플레이스 사용이 처음이라면 [GitHub 플러그인 설치 가이드](https://github.com/unicorn-plugins/gen-ma-plugin/blob/main/docs/how-to-install-github-plugin.md)를 참조하세요.
 
 ---
 
@@ -524,7 +524,7 @@ abra/
 
 | 프로젝트 | 설명 | 링크 |
 |---------|------|------|
-| **전시정보 카드뉴스** | Abra 플러그인으로 생성한 전시·공연 정보 카드뉴스 AI Agent | [GitHub](https://github.com/cna-bootcamp/culture-card-news) |
+| **전시정보 카드뉴스** | Abra 플러그인으로 생성한 전시·공연 정보 카드뉴스 AI Agent | [GitHub](https://github.com/unicorn-plugins/culture-card-news) |
 
 ---
 
@@ -574,6 +574,6 @@ Abra 플러그인은 다음 오픈소스 소프트웨어를 사용함:
 ### 기여 및 지원
 
 버그 리포트, 기능 요청, 기여는 다음 경로로:
-- GitHub Issues: https://github.com/cna-bootcamp/abra/issues
-- GitHub Discussions: https://github.com/cna-bootcamp/abra/discussions
+- GitHub Issues: https://github.com/unicorn-plugins/abra/issues
+- GitHub Discussions: https://github.com/unicorn-plugins/abra/discussions
 
